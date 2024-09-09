@@ -1,0 +1,93 @@
+
+body, html{
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(to top right, #317fd1, #d822e9);
+    
+    font-family: "Montserrat Alternates", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;  
+    border-radius: 0.40rem; 
+    padding: 0.3rem 1rem;
+    transition: all 0.3s ease;
+   
+}
+.container:hover{
+    box-shadow:0 0rem 0.3rem rgb(0, 0, 0) ;
+}
+
+.post h1{
+    text-align: center;
+    font-size: 2rem;
+    /* padding: 0.3rem 1rem; */
+    margin: 1rem 1rem;
+}
+
+.post{
+    width: 250px;
+    margin: 0 auto;
+}
+
+section article form input,button{
+    width: 100%;
+    transition: all 0.3s ease;
+}
+section article form input{
+    border: none;
+    border-bottom:1px solid rgb(216, 208, 208);
+    border-radius: 0.5rem;
+}
+section article form input:hover{
+   background-color: rgb(210, 210, 210);
+}
+
+section article form button{
+    border: none;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 1.5rem;
+    background-color: rgb(208, 154, 221);
+    padding: 0.5rem;
+    color: #fff;
+}
+section article form button:hover{
+    background-color: rgb(125, 164, 237);
+}
+
+ section article form label, p{
+    font-size: 0.7rem;
+    font-weight: bold;
+} 
+section article form p{
+    text-align: right;
+} 
+.container .reference img:hover{
+    box-shadow: 0rem 0rem 1rem rgba(0, 0,0, 0.30);
+} 
+section .datos{
+    text-align: center;
+}
+section .imagen{
+    text-align: center;
+}
+
+footer{
+    margin-top: 115px;
+  
+}
+footer p{
+    text-align: center;
+    margin: 0;
+}
+
+.reference{
+    margin-top: 40px;
+}
