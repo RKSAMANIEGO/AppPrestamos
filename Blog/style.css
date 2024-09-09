@@ -1,0 +1,62 @@
+/*dar el estilo de fuento a todo el doc html*/
+html{
+     font-family: "Montserrat", sans-serif;
+}
+/*resetear el margen del cuerpo y darle color de fondo*/
+body{
+    margin: 0;
+    background-color: rgb(210, 213, 214);
+}
+/*darle color al fondo y ala fuente de la cabecera de la pagina y*/
+header{
+    background-color:  rgb(47, 45, 45);
+    color: aliceblue;
+    padding: 2rem 3rem;
+}
+/*tamaño y alineacion de la fuente de la cabecera*/
+header h1{
+font-size: 4rem;
+text-align: center;
+}
+
+/*para centrar todo lo que esta en section*/
+.contenedor{
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article{
+    transition: all 0.3s ease;
+    background-color: #fff;
+    margin: 1rem  0;
+    border-radius: 0.7rem;
+    padding: 0.25rem  0rem;
+    cursor: pointer;
+}
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+section article h2,p{
+    margin: 1rem ;
+}
+
+footer{
+    background-color:  rgb(47, 45, 45);
+    color: aliceblue;
+    padding: 2rem;
+}
+footer section {
+float: right;
+}
+footer  p{
+    margin-top: 0;
+}
+footer section a{
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: #fff;
+}
+footer section a:hover{
+    color: #4e58cb;
+}
